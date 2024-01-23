@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark/Light Mode</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapped">
+        <span id="toggle-icon">
+            <span class="toggle-text">
+                LIGHT MODE
+            </span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <!-- Navigation  -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECT</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Custom Title Here</h1>
+            <h2>Welcome to the Website!</h2>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+        <h1>Undraw Illustrations</h1>
+        <div class="about-container">
+            <div class="img-container">
+                <h2>COFFEE TIME</h2>
+                <img src="./img/undraw_coffee_time_e8cw_dark_mode.svg" alt="Coffee time" id="image1">
+            </div>
+
+            <div class="img-container">
+                <h2>DRINK TIME</h2>
+                <img src="./img/undraw_drink_coffee_v3au_dark_mode.svg" alt="Drink time" id="image2">
+            </div>
+
+            <div class="img-container">
+                <h2>INLOVE TIME</h2>
+                <img src="./img/undraw_in_love_6sq2_dark_mode.svg" alt="Inlove time" id="image3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Prj section -->
+    <section id="projects">
+        <h1>Button</h1>
+        <div class="buttons">
+            <button class="primary">PRIMARY</button>
+            <button class="secondary">SECONDARY</button>
+            <button class="primary" disabled>DISABLE</button>
+            <button class="outline">OUTLINE</button>
+            <button class="secondary outline">ALT OUTLINE</button>
+            <button class="outline" disabled>DISABLE</button>
+        </div>
+
+        <div class="textbox" id="textbox">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, autem, consequuntur, delectus
+                doloremque dolorum eos expedita facere fugiat fugit harum iusto laboriosam maiores maxime
+                minima natus neque nihil nulla numquam obcaecati odit officia optio quaerat quasi quasi quasi
+                quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi
+                quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi
+                quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi quasi
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="social-icons">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
